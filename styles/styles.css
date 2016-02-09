@@ -4,12 +4,33 @@
 }
 
 body {
-	background-color: #0095F2;
+	background-color: #00a2d8;
 }
 
 form {
 	width: 100%;
 	margin: 2.5% 5%;
+}
+
+input {
+	border: 2px solid white;
+	background-color: #00a2d8;
+	color: white;
+	height: 2em;
+	font-size: 1em;
+}
+
+select {
+	border: 2px solid white;
+	color: white;
+	background-color: #00a2d8;
+	font-size: 1em;
+}
+
+textarea {
+	border: 2px solid white;
+	background-color: #00a2d8;
+	resize: none;
 }
 
 #col1, #col2, #col3 {
@@ -22,12 +43,15 @@ form {
 
 #first-name, #last-name, #email, #country, #bio {
 	width: 100%;
+	margin-bottom: 12%;
 }
 
 #phone, #groups, #job, #pet, #gadget {
 	width: 100%;
+	margin-bottom: 11.5%;
 }
 
-#talent, #drink, #power, #weapon, #comment {
+#talent, #drink, #power, #weapon, #comments {
 	width: 100%;
+	margin-bottom: 12%;
 }
