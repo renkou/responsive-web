@@ -1,4 +1,4 @@
-*,*:before,*:after {
+*,*:before,*:after { 
 	-webkit-border-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -109,5 +109,5 @@ textarea {
 	#phone, #groups, #job, #pet, #gadget {
 		margin-bottom: 1%;
 	}
-
+/*branch test*/
 }
